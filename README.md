@@ -82,21 +82,6 @@ flowchart LR
 
 ---
 
-## Repositório
-
-```text
-├── TECH_CHALLENGE_4_COMPLETO.ipynb  # projeto inteiro, Partes 0 a 5
-├── app/app.py                       # interface Gradio (modo simulado)
-├── docs/ARQUITETURA.md              # estrutura, diagramas e componentes
-├── docs/PERGUNTAS_TESTE.md          # bateria de 20 perguntas e critérios
-├── docs/INCREMENTOS.md              # análise das bases complementares e incrementos
-├── testes/perguntas_teste.json      # bateria em formato de dados
-├── data/                            # CSVs da Olist (não versionados)
-└── resultados/                      # saídas geradas pelo notebook
-```
-
----
-
 ## Limitações
 
 * Os limiares de escopo e relevância (Parte 3) e de temas por embedding (Parte 5) são pontos de partida: a calibração e a validação com amostra rotulada estão no notebook.
